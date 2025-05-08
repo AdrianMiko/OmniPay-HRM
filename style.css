@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header img {
+    width: 50px;
+    height: 40px;
+  }
+
+  .header h2 {
+    font-size: 24px;
+    color: #1f2937;
+    margin: 0;
+  }
+
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  .login-container .remember {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .login-container .remember input {
+    margin-right: 8px;
+  }
+
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d1d5db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: not-allowed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .login-container a {
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+  }
+
+  .login-container .forgot {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .login-container .signup {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .login-container .signup a {
+    font-weight: bold;
+  }
+
+  .login-container .social-login {
+    margin-top: 20px;
+  }
+
+  .login-container .social-login i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #4b5563;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+
+  .forgot-container {
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .header-forgot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  }
+
+  .header-forgot img {
+    width: 50px;
+    height: 40px;
+  }
+
+  .header-forgot h2 {
+    font-size: 24px;
+    color: #1f2937;
+    margin: 0;
+  }
+
+  .forgot-container p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 30px;
+  }
+
+  .forgot-container input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+  }
+
+  .forgot-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d1d5db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: not-allowed;
+  }
+
+  .forgot-container .back {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .forgot-container .back a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f2937;
+  }
